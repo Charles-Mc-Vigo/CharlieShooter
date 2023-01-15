@@ -86,7 +86,7 @@ namespace FinalProject
                 BananaRipe.Top += 3;
                 OverRipe.Top += 5;
             }
-
+            //comment lang to
 
         }
         //shooting function
