@@ -1,0 +1,5 @@
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\publish\FinalProject.exe
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\publish\FinalProject.dll
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\publish\FinalProject.deps.json
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\publish\FinalProject.runtimeconfig.json
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\publish\FinalProject.pdb

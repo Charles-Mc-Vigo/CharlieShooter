@@ -1,0 +1,5 @@
+C:\Users\Charles Mc\Desktop\New folder\FinalProject.exe
+C:\Users\Charles Mc\Desktop\New folder\FinalProject.dll
+C:\Users\Charles Mc\Desktop\New folder\FinalProject.deps.json
+C:\Users\Charles Mc\Desktop\New folder\FinalProject.runtimeconfig.json
+C:\Users\Charles Mc\Desktop\New folder\FinalProject.pdb
