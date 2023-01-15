@@ -19,3 +19,7 @@ C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Rele
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.pdb
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.genruntimeconfig.cache
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\ref\FinalProject.dll
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\FinalProject.dll.manifest
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Release\net6.0-windows\FinalProject.application
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.dll.manifest
+C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.application
