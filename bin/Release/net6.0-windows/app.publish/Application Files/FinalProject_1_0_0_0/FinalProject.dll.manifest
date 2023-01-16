@@ -62,22 +62,22 @@
       <dsig:DigestValue>hlxeCrbXlHmn4FhHOtqy1XbrUCCdttfWiyHlLgVeRiI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FinalProject.dll" size="2778112">
+  <file name="FinalProject.dll" size="2980864">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>0x5GHfXaAkMuwXn7He0Hs8OXcO2vusXEYyzqKV4C0zU=</dsig:DigestValue>
+      <dsig:DigestValue>Wahc1vG6BgbMaXlIjV0XHuDT6wXFjM4p2l2vzjqH+zM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FinalProject.exe" size="147968">
+  <file name="FinalProject.exe" size="147456">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bMIZt/wFexScHS/SDU+1EcF0lBf0X01EqClBCiURWYM=</dsig:DigestValue>
+      <dsig:DigestValue>7oRTvvvsNXLGZTC4tAuJwRaNgBEDQ8nS7vHB+lHe2/I=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FinalProject.runtimeconfig.json" size="372">

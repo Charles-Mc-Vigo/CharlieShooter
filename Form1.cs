@@ -19,7 +19,7 @@ namespace FinalProject
             //
             Form3 form3 = new Form3(); // creating instance of form3 to be able to get to that form
             form3.ShowDialog(); // calling out the instance of form 3 to be able to get to that form
-            this.Close();
+            this.Hide(); //closing this form
         }
         //
         // program will teminate if exit button get clicked

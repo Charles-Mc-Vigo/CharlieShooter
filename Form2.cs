@@ -194,7 +194,7 @@ namespace FinalProject
             //if gameover goto form4 to see game details such as scores and names
             Form4 form4 = new Form4(name,course,score);
             form4.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void Form2_Load(object sender, EventArgs e)

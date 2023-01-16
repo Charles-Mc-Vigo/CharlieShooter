@@ -32,16 +32,13 @@ namespace FinalProject
                 form2.name = tbname.Text;
                 form2.course = tbCourse.Text;
                 form2.ShowDialog();
-                this.Close();
+                this.Hide();
             }
         }
 
         private void exitbutton_Click(object sender, EventArgs e) //exit button
         {
-            //if exit button got cliked, goto form1
-            Form1 form1= new Form1();
-            form1.ShowDialog();
-            this.Close();
+            Application.Exit(); // terminate the program
         }
     }
 }
