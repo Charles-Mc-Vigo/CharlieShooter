@@ -29,16 +29,16 @@ namespace FinalProject
         {
             //return to from1 if exit button is clicked
             Form1 form1= new Form1();
-            form1.ShowDialog();
-            this.Close();
+            form1.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //return to from2 is restart button clicked
             Form1 form1 = new Form1();
-            form1.ShowDialog();
-            this.Close();
+            form1.Show();
+            this.Hide();
         }
     }
 }

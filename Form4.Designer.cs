@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.lbresultCourse = new System.Windows.Forms.Label();
             this.lbresultPlayername = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,45 +43,45 @@
             // lbresultCourse
             // 
             this.lbresultCourse.AutoSize = true;
-            this.lbresultCourse.Font = new System.Drawing.Font("Minecraft", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbresultCourse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbresultCourse.Location = new System.Drawing.Point(42, 209);
             this.lbresultCourse.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbresultCourse.Name = "lbresultCourse";
-            this.lbresultCourse.Size = new System.Drawing.Size(106, 23);
+            this.lbresultCourse.Size = new System.Drawing.Size(102, 26);
             this.lbresultCourse.TabIndex = 16;
             this.lbresultCourse.Text = "Course :";
             // 
             // lbresultPlayername
             // 
             this.lbresultPlayername.AutoSize = true;
-            this.lbresultPlayername.Font = new System.Drawing.Font("Minecraft", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbresultPlayername.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbresultPlayername.Location = new System.Drawing.Point(42, 167);
             this.lbresultPlayername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbresultPlayername.Name = "lbresultPlayername";
-            this.lbresultPlayername.Size = new System.Drawing.Size(172, 23);
+            this.lbresultPlayername.Size = new System.Drawing.Size(160, 26);
             this.lbresultPlayername.TabIndex = 14;
             this.lbresultPlayername.Text = "Player name :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Minecraft", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(266, 91);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 23);
+            this.label3.Size = new System.Drawing.Size(102, 26);
             this.label3.TabIndex = 13;
             this.label3.Text = "Shooter!";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Minecraft", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(243, 63);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 28);
+            this.label1.Size = new System.Drawing.Size(112, 32);
             this.label1.TabIndex = 12;
             this.label1.Text = "Charlie";
             // 
@@ -98,18 +99,18 @@
             // lbresultScore
             // 
             this.lbresultScore.AutoSize = true;
-            this.lbresultScore.Font = new System.Drawing.Font("Minecraft", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbresultScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbresultScore.Location = new System.Drawing.Point(42, 243);
             this.lbresultScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbresultScore.Name = "lbresultScore";
-            this.lbresultScore.Size = new System.Drawing.Size(101, 23);
+            this.lbresultScore.Size = new System.Drawing.Size(95, 26);
             this.lbresultScore.TabIndex = 17;
             this.lbresultScore.Text = "Score : ";
             // 
             // exitbutton
             // 
             this.exitbutton.BackColor = System.Drawing.Color.Red;
-            this.exitbutton.Font = new System.Drawing.Font("Minecraft", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.exitbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.exitbutton.ForeColor = System.Drawing.Color.White;
             this.exitbutton.Location = new System.Drawing.Point(266, 277);
             this.exitbutton.Name = "exitbutton";
@@ -122,7 +123,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.YellowGreen;
-            this.button1.Font = new System.Drawing.Font("Minecraft", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(125, 277);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 50);
@@ -147,6 +148,7 @@
             this.Controls.Add(this.pictureBox2);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(480, 365);
             this.MinimumSize = new System.Drawing.Size(480, 365);
             this.Name = "Form4";

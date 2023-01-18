@@ -31,7 +31,7 @@ namespace FinalProject
                 Form2 form2 = new Form2();
                 form2.name = tbname.Text;
                 form2.course = tbCourse.Text;
-                form2.ShowDialog();
+                form2.Show();
                 this.Hide();
             }
         }

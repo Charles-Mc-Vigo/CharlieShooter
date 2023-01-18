@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.shooter = new System.Windows.Forms.PictureBox();
             this.bullet = new System.Windows.Forms.PictureBox();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
@@ -228,11 +229,11 @@
             // 
             this.lbPlayername.AutoSize = true;
             this.lbPlayername.BackColor = System.Drawing.Color.Black;
-            this.lbPlayername.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbPlayername.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbPlayername.ForeColor = System.Drawing.Color.White;
             this.lbPlayername.Location = new System.Drawing.Point(34, 17);
             this.lbPlayername.Name = "lbPlayername";
-            this.lbPlayername.Size = new System.Drawing.Size(151, 32);
+            this.lbPlayername.Size = new System.Drawing.Size(142, 37);
             this.lbPlayername.TabIndex = 32;
             this.lbPlayername.Text = "Player : ";
             // 
@@ -240,11 +241,11 @@
             // 
             this.lbScore.AutoSize = true;
             this.lbScore.BackColor = System.Drawing.Color.Black;
-            this.lbScore.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbScore.ForeColor = System.Drawing.Color.White;
             this.lbScore.Location = new System.Drawing.Point(368, 17);
             this.lbScore.Name = "lbScore";
-            this.lbScore.Size = new System.Drawing.Size(142, 32);
+            this.lbScore.Size = new System.Drawing.Size(135, 37);
             this.lbScore.TabIndex = 33;
             this.lbScore.Text = "Score : ";
             // 
@@ -252,11 +253,11 @@
             // 
             this.lbLives.AutoSize = true;
             this.lbLives.BackColor = System.Drawing.Color.Black;
-            this.lbLives.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbLives.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbLives.ForeColor = System.Drawing.Color.White;
             this.lbLives.Location = new System.Drawing.Point(685, 17);
             this.lbLives.Name = "lbLives";
-            this.lbLives.Size = new System.Drawing.Size(121, 32);
+            this.lbLives.Size = new System.Drawing.Size(115, 37);
             this.lbLives.TabIndex = 34;
             this.lbLives.Text = "Lives :";
             // 
@@ -264,11 +265,11 @@
             // 
             this.lbGamelevel.AutoSize = true;
             this.lbGamelevel.BackColor = System.Drawing.Color.Black;
-            this.lbGamelevel.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbGamelevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbGamelevel.ForeColor = System.Drawing.Color.White;
             this.lbGamelevel.Location = new System.Drawing.Point(990, 17);
             this.lbGamelevel.Name = "lbGamelevel";
-            this.lbGamelevel.Size = new System.Drawing.Size(123, 32);
+            this.lbGamelevel.Size = new System.Drawing.Size(116, 37);
             this.lbGamelevel.TabIndex = 35;
             this.lbGamelevel.Text = "Level :";
             // 
@@ -298,6 +299,7 @@
             this.Controls.Add(this.OverRipe);
             this.Controls.Add(this.bullet);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1400, 500);
             this.MinimumSize = new System.Drawing.Size(1400, 500);
             this.Name = "Form2";
