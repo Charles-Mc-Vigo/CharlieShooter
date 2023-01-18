@@ -25,7 +25,7 @@ namespace FinalProject
         // program will teminate if exit button get clicked
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); //terminate the program
         }
 
     }
