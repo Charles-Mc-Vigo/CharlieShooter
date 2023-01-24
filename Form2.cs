@@ -14,10 +14,8 @@ namespace FinalProject
     public partial class Form2 : Form
     {
         //game variables
-        public string course;
-        public string name;
         public int score = 0;
-        public int lives = 3;
+        public int lives = 5;
 
         public Form2()
         {
@@ -63,28 +61,28 @@ namespace FinalProject
             {
                 //easy level
                 lbGamelevel.Text = "Level : Easy";
-                OverRipe.Top += 2;
+                OverRipe.Top += 1;
             }
             if (score >= 100)
             {
                 //medium level. speed of overripe banana increases by 3
                 lbGamelevel.Text = "Level : Medium";
                 BananaRipe.Top += 1;
-                OverRipe.Top +=3;
+                OverRipe.Top +=2;
             }
             if (score >= 200)
             {
                 //hard level. banana increases speed by 3 and overripe banana increases speed by 4
                 lbGamelevel.Text = "Level : Hard";
                 BananaRipe.Top += 2;
-                OverRipe.Top += 4;
+                OverRipe.Top += 3;
             }
             if (score >= 500)
             {
                 //impossible level. banana speed increases by 4 and overripe banana increases by 5
                 lbGamelevel.Text = "Level : Impossible!";
                 BananaRipe.Top += 3;
-                OverRipe.Top += 5;
+                OverRipe.Top += 4;
             }
             //comment lang to
 
@@ -120,7 +118,7 @@ namespace FinalProject
             {
                 if (shooter.Top > 74) 
                 {
-                    shooter.Top -= 40;
+                    shooter.Top -= 60;
                     bullet.Top = shooter.Top + bullet.Width / 2;
                 }
             }
@@ -128,7 +126,7 @@ namespace FinalProject
             {
                 if (shooter.Top < 336)
                 {
-                    shooter.Top += 40;
+                    shooter.Top += 60;
                     bullet.Top = shooter.Top + bullet.Width / 2;
                 }
             }
@@ -192,17 +190,19 @@ namespace FinalProject
             SoundPlayer gameoverSound = new SoundPlayer(@"C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Debug\net6.0-windows\gameover.wav");
             gameoverSound.Play();
             //if gameover goto form4 to see game details such as scores and names
-            Form4 form4 = new Form4(name,course,score);
+            Form4 form4 = new Form4(score);
             form4.Show();
             this.Hide();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            lbPlayername.Text = "Player : "+name;
             lbLives.Text = "Lives : " + lives;
             lbScore.Text = "Score : " + score;
+            btnPlay.Hide();
+            btnPlayNPause.Show();
 
         }
+
     }
 }

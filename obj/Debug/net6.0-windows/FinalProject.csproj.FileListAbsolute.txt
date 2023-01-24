@@ -17,5 +17,4 @@ C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Debu
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Debug\net6.0-windows\FinalProject.pdb
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Debug\net6.0-windows\FinalProject.genruntimeconfig.cache
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Debug\net6.0-windows\ref\FinalProject.dll
-C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Debug\net6.0-windows\FinalProject.Form3.resources
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Debug\net6.0-windows\FinalProject.Form4.resources

@@ -46,10 +46,10 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.lbPlayername = new System.Windows.Forms.Label();
             this.lbScore = new System.Windows.Forms.Label();
             this.lbLives = new System.Windows.Forms.Label();
             this.lbGamelevel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.shooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bullet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ground)).BeginInit();
@@ -225,25 +225,13 @@
             this.pictureBox10.TabIndex = 31;
             this.pictureBox10.TabStop = false;
             // 
-            // lbPlayername
-            // 
-            this.lbPlayername.AutoSize = true;
-            this.lbPlayername.BackColor = System.Drawing.Color.Black;
-            this.lbPlayername.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbPlayername.ForeColor = System.Drawing.Color.White;
-            this.lbPlayername.Location = new System.Drawing.Point(34, 17);
-            this.lbPlayername.Name = "lbPlayername";
-            this.lbPlayername.Size = new System.Drawing.Size(142, 37);
-            this.lbPlayername.TabIndex = 32;
-            this.lbPlayername.Text = "Player : ";
-            // 
             // lbScore
             // 
             this.lbScore.AutoSize = true;
             this.lbScore.BackColor = System.Drawing.Color.Black;
             this.lbScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbScore.ForeColor = System.Drawing.Color.White;
-            this.lbScore.Location = new System.Drawing.Point(368, 17);
+            this.lbScore.Location = new System.Drawing.Point(3, 17);
             this.lbScore.Name = "lbScore";
             this.lbScore.Size = new System.Drawing.Size(135, 37);
             this.lbScore.TabIndex = 33;
@@ -255,7 +243,7 @@
             this.lbLives.BackColor = System.Drawing.Color.Black;
             this.lbLives.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbLives.ForeColor = System.Drawing.Color.White;
-            this.lbLives.Location = new System.Drawing.Point(685, 17);
+            this.lbLives.Location = new System.Drawing.Point(651, 17);
             this.lbLives.Name = "lbLives";
             this.lbLives.Size = new System.Drawing.Size(115, 37);
             this.lbLives.TabIndex = 34;
@@ -267,11 +255,20 @@
             this.lbGamelevel.BackColor = System.Drawing.Color.Black;
             this.lbGamelevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbGamelevel.ForeColor = System.Drawing.Color.White;
-            this.lbGamelevel.Location = new System.Drawing.Point(990, 17);
+            this.lbGamelevel.Location = new System.Drawing.Point(1138, 9);
             this.lbGamelevel.Name = "lbGamelevel";
             this.lbGamelevel.Size = new System.Drawing.Size(116, 37);
             this.lbGamelevel.TabIndex = 35;
             this.lbGamelevel.Text = "Level :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(574, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(257, 25);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "Created by : Charles Mc L. Vigo";
             // 
             // Form2
             // 
@@ -279,10 +276,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1400, 500);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lbGamelevel);
             this.Controls.Add(this.lbLives);
             this.Controls.Add(this.lbScore);
-            this.Controls.Add(this.lbPlayername);
             this.Controls.Add(this.shooter);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -347,6 +344,6 @@
         private Label lbScore;
         private Label lbLives;
         private Label lbGamelevel;
-        protected Label lbPlayername;
+        private Label label2;
     }
 }

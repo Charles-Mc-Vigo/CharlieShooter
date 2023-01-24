@@ -29,45 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
-            this.lbresultCourse = new System.Windows.Forms.Label();
-            this.lbresultPlayername = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lbresultScore = new System.Windows.Forms.Label();
             this.exitbutton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbScore = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbresultCourse
-            // 
-            this.lbresultCourse.AutoSize = true;
-            this.lbresultCourse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbresultCourse.Location = new System.Drawing.Point(42, 209);
-            this.lbresultCourse.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbresultCourse.Name = "lbresultCourse";
-            this.lbresultCourse.Size = new System.Drawing.Size(102, 26);
-            this.lbresultCourse.TabIndex = 16;
-            this.lbresultCourse.Text = "Course :";
-            // 
-            // lbresultPlayername
-            // 
-            this.lbresultPlayername.AutoSize = true;
-            this.lbresultPlayername.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbresultPlayername.Location = new System.Drawing.Point(42, 167);
-            this.lbresultPlayername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbresultPlayername.Name = "lbresultPlayername";
-            this.lbresultPlayername.Size = new System.Drawing.Size(160, 26);
-            this.lbresultPlayername.TabIndex = 14;
-            this.lbresultPlayername.Text = "Player name :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(266, 91);
+            this.label3.Location = new System.Drawing.Point(246, 91);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 26);
@@ -78,7 +55,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(243, 63);
+            this.label1.Location = new System.Drawing.Point(223, 63);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 32);
@@ -88,7 +65,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::FinalProject.Properties.Resources._24tcqmima5221_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(153, 45);
+            this.pictureBox2.Location = new System.Drawing.Point(133, 45);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 100);
@@ -96,23 +73,12 @@
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
-            // lbresultScore
-            // 
-            this.lbresultScore.AutoSize = true;
-            this.lbresultScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbresultScore.Location = new System.Drawing.Point(42, 243);
-            this.lbresultScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbresultScore.Name = "lbresultScore";
-            this.lbresultScore.Size = new System.Drawing.Size(95, 26);
-            this.lbresultScore.TabIndex = 17;
-            this.lbresultScore.Text = "Score : ";
-            // 
             // exitbutton
             // 
             this.exitbutton.BackColor = System.Drawing.Color.Red;
             this.exitbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.exitbutton.ForeColor = System.Drawing.Color.White;
-            this.exitbutton.Location = new System.Drawing.Point(266, 277);
+            this.exitbutton.Location = new System.Drawing.Point(248, 277);
             this.exitbutton.Name = "exitbutton";
             this.exitbutton.Size = new System.Drawing.Size(112, 50);
             this.exitbutton.TabIndex = 19;
@@ -124,7 +90,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.YellowGreen;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(125, 277);
+            this.button1.Location = new System.Drawing.Point(107, 277);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 50);
             this.button1.TabIndex = 18;
@@ -132,17 +98,35 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lbScore
+            // 
+            this.lbScore.AutoSize = true;
+            this.lbScore.Font = new System.Drawing.Font("Century Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbScore.Location = new System.Drawing.Point(147, 170);
+            this.lbScore.Name = "lbScore";
+            this.lbScore.Size = new System.Drawing.Size(187, 49);
+            this.lbScore.TabIndex = 20;
+            this.lbScore.Text = "Score : 0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(107, 147);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(257, 25);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "Created by : Charles Mc L. Vigo";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(480, 365);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbScore);
             this.Controls.Add(this.exitbutton);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lbresultScore);
-            this.Controls.Add(this.lbresultCourse);
-            this.Controls.Add(this.lbresultPlayername);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
@@ -162,14 +146,12 @@
         }
 
         #endregion
-
-        private Label lbresultCourse;
-        private Label lbresultPlayername;
         private Label label3;
         private Label label1;
         private PictureBox pictureBox2;
-        private Label lbresultScore;
         private Button exitbutton;
         private Button button1;
+        private Label lbScore;
+        private Label label2;
     }
 }

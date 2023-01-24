@@ -12,12 +12,10 @@ namespace FinalProject
 {
     public partial class Form4 : Form
     {
-        public Form4(string Pname, string Pcourse, int Pscore)
+        public Form4(int Pscore)
         {
             InitializeComponent();
-            lbresultPlayername.Text = "Player name : " + Pname;
-            lbresultScore.Text = "Score : "+ Pscore;
-            lbresultCourse.Text = "Course : "+ Pcourse;
+            lbScore.Text="Score : "+ Pscore.ToString();
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -28,8 +26,8 @@ namespace FinalProject
         private void exitbutton_Click(object sender, EventArgs e)
         {
             //return to from1 if exit button is clicked
-            Form1 form1= new Form1();
-            form1.Show();
+            Form2 form2= new Form2();
+            form2.Show();
             this.Hide();
         }
 

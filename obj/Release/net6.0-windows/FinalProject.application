@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="FinalProject.dll.manifest" size="4664">
+    <dependentAssembly dependencyType="install" codebase="FinalProject.dll.manifest" size="5154">
       <assemblyIdentity name="FinalProject.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wDeebgoagzu4Lg0RWFCeB3VUFhXGDy8ar9PDpcmyh+o=</dsig:DigestValue>
+        <dsig:DigestValue>zyn9lraj73/JhbtjSohh4ruHu9Wio1Z2AI0un54ZIv8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
