@@ -199,8 +199,6 @@ namespace FinalProject
         {
             lbLives.Text = "Lives : " + lives;
             lbScore.Text = "Score : " + score;
-            btnPlay.Hide();
-            btnPlayNPause.Show();
 
         }
 

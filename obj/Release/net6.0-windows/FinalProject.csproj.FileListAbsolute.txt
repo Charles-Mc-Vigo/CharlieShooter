@@ -6,7 +6,6 @@ C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Rele
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.csproj.AssemblyReference.cache
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.Form1.resources
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.Form2.resources
-C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.Form3.resources
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.Form4.resources
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.Properties.Resources.resources
 C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\obj\Release\net6.0-windows\FinalProject.csproj.GenerateResource.cache
