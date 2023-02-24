@@ -7,9 +7,6 @@ namespace FinalProject
         public Form1()
         {
             InitializeComponent();
-            //play background music while in form1
-            SoundPlayer bgMusic = new SoundPlayer(@"C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Debug\net6.0-windows\mixkit-bootleg-1055.wav");
-            bgMusic.PlayLooping();
         }
         //
         //play the game if the play button get clicked

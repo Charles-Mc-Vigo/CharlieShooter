@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charles Mc\\Desktop\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj": {}
+    "C:\\Users\\Charles Mc\\Desktop\\Documents\\First Semester\\programming2\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charles Mc\\Desktop\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj": {
+    "C:\\Users\\Charles Mc\\Desktop\\Documents\\First Semester\\programming2\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charles Mc\\Desktop\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Charles Mc\\Desktop\\Documents\\First Semester\\programming2\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "C:\\Users\\Charles Mc\\Desktop\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj",
+        "projectPath": "C:\\Users\\Charles Mc\\Desktop\\Documents\\First Semester\\programming2\\Final Project in Programming 2\\FinalProject\\FinalProject.csproj",
         "packagesPath": "C:\\Users\\Charles Mc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charles Mc\\Desktop\\Final Project in Programming 2\\FinalProject\\obj\\",
+        "outputPath": "C:\\Users\\Charles Mc\\Desktop\\Documents\\First Semester\\programming2\\Final Project in Programming 2\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Charles Mc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

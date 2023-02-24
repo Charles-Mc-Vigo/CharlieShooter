@@ -30,8 +30,6 @@ namespace FinalProject
             //this is a condition if the bullet hits the ripe banana
             if (bullet.Bounds.IntersectsWith(BananaRipe.Bounds))
             {
-                SoundPlayer hitSound = new SoundPlayer(@"C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Debug\net6.0-windows\mixkit-sword-cutting-flesh-2788.wav");
-                hitSound.Play();
                 BananaRipe.Top = 500;
                 score += 5;            
                 lbScore.Text = "Score : " + score;     
@@ -40,8 +38,6 @@ namespace FinalProject
             //this condition is for overripe banana if hits
             if (bullet.Bounds.IntersectsWith(OverRipe.Bounds))  
             {
-                SoundPlayer overripehitsound = new SoundPlayer(@"C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Debug\net6.0-windows\exiting sound.wav");
-                overripehitsound.Play();
                 OverRipe.Top = 500;
                 lives -= 1;     
                 lbLives.Text = "Lives : " + lives;     
@@ -132,8 +128,6 @@ namespace FinalProject
             }
             if (e.KeyCode == Keys.Space)    //shoot when spacebar is pressed
             {
-                SoundPlayer laserGun = new SoundPlayer(@"C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Debug\net6.0-windows\sf_laser_18.wav");
-                laserGun.Play();
                 bullet.Left = shooter.Left; 
                 shooter.Image = Properties.Resources.shoot;
 
@@ -186,9 +180,7 @@ namespace FinalProject
         {
             //if gameover, timer will stop
             gameTimer.Stop();
-            //gameover sound effect
-            SoundPlayer gameoverSound = new SoundPlayer(@"C:\Users\Charles Mc\Desktop\Final Project in Programming 2\FinalProject\bin\Debug\net6.0-windows\gameover.wav");
-            gameoverSound.Play();
+
             //if gameover goto form4 to see game details such as scores and names
             Form4 form4 = new Form4(score);
             form4.Show();
